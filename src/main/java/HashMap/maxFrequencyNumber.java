@@ -13,7 +13,6 @@ public class maxFrequencyNumber {
         for(int i=0; i<size; i++){
             arr[i] = s.nextInt();
         }
-
         System.out.print(maxFrequencyNumber.maxFrequencyNumber(arr));
     }
 
