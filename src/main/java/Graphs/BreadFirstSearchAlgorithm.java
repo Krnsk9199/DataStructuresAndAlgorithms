@@ -25,8 +25,9 @@ public class BreadFirstSearchAlgorithm {
 
         adj = new int [v][v];
         addEdge(0,1);
-        addEdge(0,2);
+        addEdge(1,2);
         addEdge(0,3);
+        addEdge(2,3);
         bfTraversal(adj);
     }
     public static void bfTraversal(int adjMatrix[][]){
